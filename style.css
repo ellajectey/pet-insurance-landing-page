@@ -237,3 +237,53 @@ h2{
     padding: 20px;
 
 }
+
+.items{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        
+}
+
+.products{
+
+    padding:100px 50px 100px 50px;
+    text-align: center ;
+    margin: auto;
+    background-color: #98d6ff;
+
+}
+
+.products p {
+    
+    padding: 20px;
+    background-color: white;
+}
+.products h2 {
+    padding-bottom: 60px;
+}
+
+
+.team-members {
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        
+}
+
+.team{
+    padding:100px 50px 100px 50px;
+    text-align: center ;
+    margin: auto;
+
+}
+
+.team h2{
+    padding-bottom: 60px;
+}
