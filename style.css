@@ -47,7 +47,7 @@ a{
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(4, 184, 255);
+    color: rgb(153, 225, 253);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a:hover{
@@ -71,6 +71,7 @@ h2{
     font-weight:bold;
     color: white;
     font-size: 20px ;
+    
 }
 
 .btn {
@@ -178,25 +179,26 @@ h2{
 
 }
 
-.img {
+.imag-packaes img {
     position: relative;
     /* float: right;  commented out*/
-    background-size:100%;
+    background-size:cover;
     background-position: none;
     height: 40%;
     width: 100%;
+    border-radius: none;
   
   
   } 
 
- .new-item2 {
+ .discounts {
     display: flex;
     align-items: center;
     width: 100%;
     margin: auto;
-    background-color: #fac968;
+    background-image: linear-gradient(#1783A9, white);
  }
- .new-item-text2{
+ .discounts-text{
     padding: 50px;
     color:#023e66;
  }
@@ -214,7 +216,7 @@ h2{
 
  img{
     width: 80%;
-    border-radius: 16px 16px 0 0;
+    border-radius: 12px 12px 0 0;
     /* every image in code will have this width  */
  } 
  .img{
@@ -237,7 +239,6 @@ h2{
 
 .services h2{
     padding: 20px;
-    background-color: #3cb0fd;
 
 }
 
@@ -254,6 +255,14 @@ h2{
         grid-row-gap: 30px;
         
         
+}
+/* .hide-text{
+    display: none;
+} */
+.card:hover img{
+    
+    opacity: 0.4 ;
+    color:#98d6ff;
 }
 
 .products{
@@ -295,4 +304,25 @@ h2{
 
 .team h2{
     padding-bottom: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    
+    }
+
+.insurance-footer{
+    background-color: #023e66;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px;
+}
+.partition h3,p,a{
+
+    padding-bottom: 10px;
+    
 }
