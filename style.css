@@ -324,7 +324,7 @@ h2{
     background-color: #023e66;
     color: #ffffff;
     text-align: left;
-    padding: 20px;
+    padding: 40px;
 }
 .partition h3,p,a{
 
@@ -335,4 +335,27 @@ h2{
 #footer-nav{
     display: unset;
     justify-content: unset;
+    padding-top: 20px;
+    margin: 10% 0 10% 0;
+}
+.partition-contact{
+    padding-top: 10px;
+    padding: 10px;
+    
+
+}
+
+.email-input{
+    padding: 10px;
+    border-radius: 16px;
+}
+.copyright-text{
+    text-align: center;
+}
+
+#social-nav{
+    display: unset;
+    justify-content: unset;
+    padding-top: 20px;
+    margin: 10% 0 10% 0;
 }

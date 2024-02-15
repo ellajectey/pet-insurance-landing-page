@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--for adjusting to different devices-->
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <title>Pet Insurance</title>
 
@@ -25,7 +28,7 @@
             <div class="top_items">
                 <div style="display: flex; justify-content: center;">
                     <!-- <h2 class="icon"> -->
-                        <img src="./assets/pets_logo.png" alt="pet insurance logo" width="100px" height="100px">
+                        <img src="./assets/white_petlogo.png" alt="pet insurance logo" width="100px" height="100px">
                         <h2 style="margin: auto;">PetInsurance</h2>
                     <!-- </h2> -->
                 </div>
@@ -78,7 +81,7 @@
         <section class="about-section">
             <div class="about-text">
                 <div>
-                    <h2 class="icon">PetInsurance</h2>
+                    <h2 class="span">PetInsurance</h2>
                 </div>
                 <h3>About Us</h3>
                 <h4>
@@ -351,15 +354,15 @@
     <footer class="insurance-footer">
         <div class="footer-grid">
             <div class="partition-about">
-                <img src="./assets/pets_logo.png" alt="pets_logo">
+                <img src="./assets/white_petlogo.png" alt="pets_logo">
 
-                <h3>About Us</h3>
+                <h3 class="span">PetInsurance</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ex hic commodi quos sequi explicabo.
                     Aliquam eius cum dolore quas ullam molestiae,
                     modi, animi voluptatum, aperiam cupiditate libero fuga earum!
                 </p>
-                <a href="#">View more...</a>
+                <a href="#">Read more...</a>
                 
             </div>
             <div class="partition-nav">
@@ -378,13 +381,32 @@
                 </ul>
             </div>
             <div class="partition-contact">
-                
+                <h2 id="emailH1">Subscribe To Our Newsletter</h2>
+                <input class="email-input" placeholder="Your email"/>
+                <button class="btn">Subscribe</button>
             </div>
             <div class="partition-social">
-                
+                <ul id="social-nav">
+
+
+                    <li> <a href="#">LinkedIn</a></li>
+                    <li> <a href="#">Instagram</a></li>
+                    <li> <a href="#">X-(Twitter) </a></li>
+                    <li> <a href="#">Facebook</a></li>
+                    <li> <a href="#">Threads</a></li>
+
+
+
+
+                </ul>
             </div>
 
         </div>
+        <div class="copyright-text">
+        <p>
+    &copy; Copyright Petinsurance Company 2024 powered by husky technologies
+        </p>
+    </div>
     </footer>
 </body>
 
