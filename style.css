@@ -9,6 +9,8 @@ body{
     font-size: 16px;
     color: black;
 }
+
+/* a comment */
 .bg{
       /* background-color:turquoise;   
       opacity: 0.7;     */
@@ -35,6 +37,7 @@ ul{
     justify-content: center;
 }
 
+
   li{
     list-style-type: none;
     padding: 8px;
@@ -47,7 +50,7 @@ a{
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(4, 184, 255);
+    color: rgb(153, 225, 253);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a:hover{
@@ -68,9 +71,10 @@ h2{
 }
 .icon {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
+    font-weight:normal;
     color: white;
     font-size: 20px ;
+    
 }
 
 .btn {
@@ -140,8 +144,8 @@ h2{
 }
 .new-item{
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     width: 100%;
     margin: auto;
     line-height: 22px;
@@ -178,25 +182,28 @@ h2{
 
 }
 
-.img {
-    position: relative;
-    /* float: right;  commented out*/
-    background-size:100%;
-    background-position: none;
-    height: 40%;
+.img-packages{
+    
     width: 100%;
+    background-color:#1281a3 ;
   
   
   } 
 
- .new-item2 {
+  #packages-bg{
+    width:100%;
+    border-radius: unset;
+    height: auto;
+    
+  }
+ .discounts {
     display: flex;
     align-items: center;
     width: 100%;
     margin: auto;
-    background-color: #fac968;
+    background-image: linear-gradient(#1783A9, white);
  }
- .new-item-text2{
+ .discounts-text{
     padding: 50px;
     color:#023e66;
  }
@@ -214,12 +221,12 @@ h2{
 
  img{
     width: 80%;
-    border-radius: 16px 16px 0 0;
+    border-radius: 12px 12px 0 0;
     /* every image in code will have this width  */
  } 
- .img{
+ /* .img{
     width: 100%;
- }
+ } */
 
  .service-items {
     display: grid;
@@ -237,7 +244,6 @@ h2{
 
 .services h2{
     padding: 20px;
-    background-color: #3cb0fd;
 
 }
 
@@ -254,6 +260,14 @@ h2{
         grid-row-gap: 30px;
         
         
+}
+/* .hide-text{
+    display: none;
+} */
+.card:hover img{
+    
+    opacity: 0.4 ;
+    color:#98d6ff;
 }
 
 .products{
@@ -295,4 +309,30 @@ h2{
 
 .team h2{
     padding-bottom: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    
+    }
+
+.insurance-footer{
+    background-color: #023e66;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px;
+}
+.partition h3,p,a{
+
+    padding-bottom: 10px;
+    
+}
+
+#footer-nav{
+    display: unset;
+    justify-content: unset;
 }
