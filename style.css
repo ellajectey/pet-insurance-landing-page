@@ -8,14 +8,14 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: black;
-}
+}   
 
 /* a comment */
 .bg{
       /* background-color:turquoise;   
       opacity: 0.7;     */
-      background-image: linear-gradient(rgba(1, 3, 26, 0.671),
-      rgba(14, 17, 65, 0.651)), url("./assets/kittens.jpg"); 
+      background-image: linear-gradient(rgba(1, 2, 10, 0.671),
+      rgba(1, 1, 12, 0.651)), url("./assets/kittens.jpg"); 
     padding: 20px; 
     background-size: cover;
     background-position: center;
@@ -331,6 +331,7 @@ h2{
     color: #ffffff;
     text-align: left;
     padding: 40px;
+    padding-bottom: 5px;
 }
 .partition h3,p,a{
 
@@ -357,6 +358,9 @@ h2{
 }
 .copyright-text{
     text-align: center;
+    margin:unset;
+    padding-bottom: unset;
+    background-color: #02243b;
 }
 
 #social-nav{
@@ -366,6 +370,9 @@ h2{
     margin: 20%;
 }
 
+.emailH1{
+    font-size: 10px;
+}
 /* .hide {
   display: none;
 }
@@ -374,3 +381,7 @@ try to use this for the hover effect on the images
   display: block;
   color: red;
 } */
+
+#team-img{
+    border-radius: 2000px;
+}
