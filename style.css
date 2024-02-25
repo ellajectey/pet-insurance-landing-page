@@ -79,7 +79,7 @@ h2{
     color:#3cb0fd;
     font-size: 24px;
     font-weight: 200;
-    line-height: 20vh;
+    line-height: 16vh;
     
 }
 
@@ -111,6 +111,9 @@ h2{
     text-decoration: none;
   }
 
+  /* #checkbtn.new-item-text{
+    align-items: right;
+  } */
   .header-text
   {
     text-align:center;
@@ -168,6 +171,7 @@ h2{
   color: white;
   padding-left: 20px;
   padding-right: 20px;*/ 
+  align-items: right;
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -192,6 +196,7 @@ h2{
     
     width: 100%;
     background-color:#1281a3 ;
+    height: 80%;
   
   
   } 
@@ -211,7 +216,8 @@ h2{
  }
  .discounts-text{
     padding: 50px;
-    color:#023e66;
+    /* color:#023e66; */
+    color:beige;
  }
 
  .text2 {
@@ -240,17 +246,28 @@ h2{
     grid-template-rows: 1fr;
     grid-column-gap: 29px;
     grid-row-gap: 0px;
+    padding-bottom: 40px;
+    padding-top: 20px;
     }
-    
+/* .service-card h3 p{
+   padding:20px;
+} */
 .services{
-    padding:100px 50px 100px 50px;
+    /* padding:100px 50px 100px 50px; */
+    padding-bottom: 20px;
     text-align: center ;
     margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.services h2{
-    padding: 20px;
+#H2subtext{
+    background-color: unset;
+}
 
+.services h2 i{
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .service-card{
@@ -258,7 +275,8 @@ h2{
 
 }
 .items{
-    
+        margin-left: 40px;
+        margin-right: 40px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -271,28 +289,33 @@ h2{
     display: none;
 } */
 .card:hover img{
-    
     opacity: 0.4 ;
-    color:#98d6ff;
+    /* color:#98d6ff; */
+    color:#06080a;
 }
 
 .products{
-
-    padding:100px 50px 100px 50px;
+    /* padding:100px 50px 100px 50px; */
+    padding-bottom: 10px;
     text-align: center ;
-    margin: auto;
+    margin:auto;
     background-color: #98d6ff;
 
 }
+#packagesh4{
+    color:#032242;
+    padding-bottom:20px;
 
-.products p {
+}
+.products p  {
     
     padding: 20px;
     background-color: white;
-    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 12px 12px; 
 }
 .products h2 {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 
@@ -323,6 +346,7 @@ h2{
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 0px;
+    padding-left: 10px;
     
     }
 
@@ -330,48 +354,76 @@ h2{
     background-color: #023e66;
     color: #ffffff;
     text-align: left;
-    padding: 40px;
-    padding-bottom: 5px;
+    /* padding: 40px; */
+    padding-top: 10px;
+    /* padding-bottom: 5px; */
 }
-.partition h3,p,a{
+.partition h3 p a{
+    /* padding-bottom: 10px; */
+    padding: 10px 0 0 10px;
+}
 
-    padding-bottom: 10px;
-    
+.partition-about h3 p a{
+    /* padding-bottom: 10px; */
+    margin-left: 40px;
+    padding: unset;
+}
+#logo-img{
+    padding-bottom: unset;
 }
 
 #footer-nav{
     display: unset;
     justify-content: unset;
-    padding-top: 20px;
+    padding-top: 50px;
     margin: 5% 0 5% 0;
 }
-.partition-contact{
-    padding-top: 10px;
-    padding: 10px;
-    
 
+html{
+    scroll-behavior:smooth !important;
+}
+
+.partition-nav{
+    padding-top: 10px;
+}
+
+.partition-contact{
+    padding-top: 50px;
+    padding: 10px;
 }
 
 .email-input{
     padding: 10px;
     border-radius: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .copyright-text{
     text-align: center;
     margin:unset;
-    padding-bottom: unset;
-    background-color: #02243b;
+    font-size: 12px;
+    /* padding-bottom: unset; */
+    /* background-color: #02243b; */
+    background-color: #012740;
+    margin-top: 20px;
 }
 
 #social-nav{
     display: unset;
     justify-content: unset;
-    padding-top: 20px;
+    padding-top: 50px;
     margin: 20%;
 }
 
 .emailH1{
     font-size: 10px;
+}
+#navH3{
+    font-size: 20px;
+}
+
+#OtherH3{
+ font-size: 20px;
 }
 /* .hide {
   display: none;
@@ -384,4 +436,5 @@ try to use this for the hover effect on the images
 
 #team-img{
     border-radius: 2000px;
+    margin-bottom: 20px;
 }
